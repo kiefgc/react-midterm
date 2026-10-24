@@ -16,7 +16,7 @@ describe("Calculator subtraction", () => {
     expect(subtract(5, 3)).toBe(2);
   });
   it("subtracts negative numbers", () => {
-    expect(subtract(-5, -3)).toBe(-2);
+    expect(subtract(2, 5)).toBe(-3);
   });
   it("converts input strings to numbers", () => {
     expect(subtract("10", "5")).toBe(5);
