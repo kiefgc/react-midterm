@@ -11,7 +11,7 @@ describe("Calculator addition", () => {
     expect(add("10", "5")).toBe(15);
   });
 });
-describbe("Calculator subtraction", () => {
+describe("Calculator subtraction", () => {
   it("subtracts two positive numbers", () => {
     expect(subtract(5, 3)).toBe(2);
   });
