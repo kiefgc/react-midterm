@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { add } from "./calculator";
+import { subtract } from "./calculator";
 export default function App() {
   const [first, setFirst] = useState("");
   const [second, setSecond] = useState("");
@@ -8,7 +9,7 @@ export default function App() {
     <main style={{ padding: "2rem", fontFamily: "Arial" }}>
       <h1>Midterm Calculator</h1>
       <p>Student: Chua, Yap</p>
-      <p>Application Version: 1.1</p>
+      <p>Application Version: 2.0</p>
       <div>
         <label>
           First number:
